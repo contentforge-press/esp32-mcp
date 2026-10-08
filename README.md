@@ -76,6 +76,15 @@ Then just ask: *"turn GPIO 2 on"*, *"what's the ADC reading on pin 34?"*,
 - The firmware only listens on its own network; change the AP password before
   exposing to the internet.
 
+## Pricing
+
+| Plan | Price | What you get |
+|---|---|---|
+| Free | $0 | All 6 core tools, single device |
+| **Pro** | **$9/mo or $90/yr** | Multi-device, history, batch control, OTA, webhooks |
+
+Free is not a trial — core tools work forever. Upgrade when you need scale.
+
 ## License
 
 MIT
