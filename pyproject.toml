@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "esp32-mcp"
+version = "0.1.0"
+description = "MCP server to control and read ESP32 IoT devices from AI agents (Claude, Cursor, etc.)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "fastmcp>=2.0",
+]
+
+[project.scripts]
+esp32-mcp = "esp32_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["esp32_mcp"]
